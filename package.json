@@ -1,0 +1,25 @@
+{
+  "name": "uwebsocket_node",
+  "version": "0.0.1",
+  "description": "uwebsocket implementation with Node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node-lts": "^18.12.5",
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/node": "^20.6.2",
+    "@types/uuid": "^9.0.4",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.1"
+  }
+}
